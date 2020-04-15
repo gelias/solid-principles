@@ -22,7 +22,7 @@ public class ClasseBaseFuncionario implements Deposito, Rendimento {
         return saldo;
     }
 
-    public double rende() {
-        return this.saldo *= 1.1;
+    public void rende() {
+        this.saldo *= 1.1;
     }
 }
