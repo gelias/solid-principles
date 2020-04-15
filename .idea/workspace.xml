@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177bcc08-ef60-49d3-acc6-ecfbe75f3b03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/bad/CalcularSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/CalcularSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/inss/CalculoINSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/ir/CalculoIR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/vr/CalculoValeRefeicao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/vt/CalculoValeTransporte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/EstagiarioNaoTemRendimentosException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/ValorInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaBaseFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaEstagiario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/DiaDaSemana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/bad/CalcularIngresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,23 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/bad/CalcularSalario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="6" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/CalcularSalario.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaEstagiario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -79,6 +66,16 @@
         <option value="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/vt/CalculoValeTransporte.java" />
         <option value="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/CalcularSalario.java" />
         <option value="$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/vr/CalculoValeRefeicao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/DiaDaSemana.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/bad/good/CalcularIngresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/good/CalcularIngresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/SegundaFeira.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/TercaFeira.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/bad/CalcularIngresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/ValorInvalidoException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaEstagiario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/EstagiarioNaoTemRendimentosException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaBaseFuncionario.java" />
       </list>
     </option>
   </component>
@@ -125,6 +122,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solid-principles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid-principles" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solid" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -133,8 +139,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solid" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="good" type="462c0819:PsiDirectoryNode" />
+              <item name="bad" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,11 +159,11 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="oo.solid.lsp.sample" />
+      <recent name="oo.solid.ocp.sample" />
       <recent name="oo.solid.srp.sample.good.vr" />
       <recent name="oo.solid.srp.sample.good.vt" />
       <recent name="oo.solid.srp.sample.good.ir" />
-      <recent name="oo.solid.srp.sample.good.inss" />
-      <recent name="oo.solid.srp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,13 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/bad/CalcularSalario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="6" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/inss/CalculoINSS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -263,11 +263,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/good/CalcularSalario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="130">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/srp/sample/bad/CalcularSalario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/DiaDaSemana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/SegundaFeira.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/TercaFeira.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/bad/CalcularIngresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/ocp/sample/good/CalcularIngresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/ValorInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/EstagiarioNaoTemRendimentosException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaBaseFuncionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oo/solid/lsp/sample/bad/ContaEstagiario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
