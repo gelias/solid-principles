@@ -2,19 +2,19 @@ package oo.solid.dip.sample.good;
 
 public class TestDrive {
 
-    private String dados;
-    private String especificacoes;
+    private String data;
+    private String specifications;
 
-    public TestDrive(String dados, String especificacoes) {
-        this.dados = dados;
-        this.especificacoes = especificacoes;
+    public TestDrive(String data, String specifications) {
+        this.data = data;
+        this.specifications = specifications;
     }
 
-    public String getDados() {
-        return dados;
+    public String getData() {
+        return data;
     }
 
-    public String getEspecificacoes() {
-        return especificacoes;
+    public String getSpecifications() {
+        return specifications;
     }
 }

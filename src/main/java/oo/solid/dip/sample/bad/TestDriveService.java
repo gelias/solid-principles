@@ -10,7 +10,7 @@ public class TestDriveService {
         this.dao = new TestDriveDao();
     }
 
-    public void run(PessoaFisica pessoaFisica, Carro carro){
-        dao.save(new TestDrive(pessoaFisica.getDados(), carro.getEspecificacoes()));
+    public void run(Person person, Car car){
+        dao.save(new TestDrive(person.getInfo(), car.getSpecifications()));
     }
 }

@@ -1,17 +1,14 @@
 package oo.solid.dip.sample.good;
 
-import oo.solid.dip.sample.bad.Carro;
-import oo.solid.dip.sample.bad.PessoaFisica;
-
 public class TestDriveService {
 
-    private EntidadeBaseDao dao;
+    private BaseDao dao;
 
-    public TestDriveService(EntidadeBaseDao dao){
+    public TestDriveService(BaseDao dao){
         this.dao = dao;
     }
 
-    public void run(Pessoa pessoa, Veiculo carro){
-        dao.save(new TestDrive(pessoa.getDados(), carro.getEspecificacoes()));
+    public void run(Individual individual, Vehicle vehicle){
+        dao.save(new TestDrive(individual.getInfo(), vehicle.getSpecifications()));
     }
 }

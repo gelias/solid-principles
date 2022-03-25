@@ -1,12 +1,10 @@
 package oo.solid.dip.sample.good;
 
-import oo.solid.dip.sample.bad.TestDriveDao;
-
-public class TestDriveDaoImpl implements EntidadeBaseDao<TestDrive>{
+public class TestDriveDaoImpl implements BaseDao<TestDrive> {
 
     @Override
-    public void save(TestDrive entidade) {
-        System.out.println(entidade.getDados());
-        System.out.println(entidade.getEspecificacoes());
+    public void save(TestDrive test) {
+        System.out.println(test.getData());
+        System.out.println(test.getSpecifications());
     }
 }
